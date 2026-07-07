@@ -34,7 +34,7 @@ def parse_duration_to_days(duration_str):
 app = Flask(__name__)
 
 # === Config ===
-SHEET_ID = "15FP9AnKL-FVe_bMN1X8TmPZ71pESeD25BYBxi_tAenA"
+SHEET_ID = "sheetid"
 SENDGRID_API_KEY = "sendgrid"
 SENDER_EMAIL = "mailid"
 RECIPIENT_FALLBACK = SENDER_EMAIL
